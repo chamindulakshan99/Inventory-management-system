@@ -1,0 +1,91 @@
+.container{
+    height: 100vh;
+    background: var(--bg-gradient);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.sub-container{
+    width: 960px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 177px 130px 33px 95px;
+}
+
+
+.sub-container-right h1{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.sub-container-right input{
+    display: block;
+    width: 100%;
+    font-family: Poppins-Medium;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #666;
+    background: #e6e6e6;
+    height: 50px;
+    border-radius: 25px;
+    padding: 0 30px 0 30px;
+    margin-bottom: 1rem;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+input:focus{
+    outline: none;
+    text-align: left;
+}
+
+.button{
+    height: 20px;
+    background :var(--inp-color) !important;
+    color: white !important;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.button:hover{
+    background: black !important;
+    color: white !important;
+}
+
+.sub-container-left{
+    padding-bottom: 134px;
+}
+
+
+.link{
+    margin-top: 136px;
+}
+
+.link a{
+    font-size: 0.85rem;
+    color: #666;
+    transition: color 0.25s;
+}
+
+.link a:hover{
+    color: var(--inp-color);
+}
+.sub-container-right .input-container {
+    position: relative;
+}
+
+.label {
+    position: absolute;
+    top: 0;
+    left: 30px;
+    pointer-events: none;
+    transition: top 0.2s, font-size 0.2s, color 0.2s;
+}
+

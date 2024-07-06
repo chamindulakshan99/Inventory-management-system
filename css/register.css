@@ -1,0 +1,14 @@
+.sub-container{
+    display: flex;
+    justify-content: space-evenly !important;
+    align-items:center !important;
+    
+}
+
+.sub-container-right input{
+    width: 20rem !important;
+}
+
+.sub-container-left img{
+    padding-bottom: 0 !important;
+}

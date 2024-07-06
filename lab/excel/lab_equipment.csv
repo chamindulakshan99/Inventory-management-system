@@ -1,0 +1,6 @@
+"Artical Name","Purchase Date","Purchase Price",Quantity,"Folio NUmber",Description,"Supplier Name","Supplier phone",SRN,Location
+Test_1234aaaaaaaa,2023-08-18,12330000,10,UOJ/CSC/123/1-13,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,jasdljas;ldkjaslidjsaldkjsaldajsldkjasdsadasd,123456789,2023,"CSL 3&4hhhhhh"
+Test_1,2023-08-31,0,0,UOJ/CSC/123/1-11,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,Chamidu,0,0,"CUL 3&45"
+Test_1,2023-08-02,0,2,UOJ/CSC/123/1-11,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,Chamidu,0,0,"CUL 3&45"
+Test_22,2023-08-28,123,3,UOJ/CSC/123/1-26,aaaaaaaaaaaa,Chamidu,123,1234,"CUL 3&45"
+Chamindu,2023-08-28,1233,2,UOJ/CSC/123/1-10,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,asdfe,1234,0,DCS

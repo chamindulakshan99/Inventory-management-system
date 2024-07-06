@@ -1,0 +1,332 @@
+.main-container{
+    padding: 50px;
+    min-height: 100vh;
+    height: fit-content;
+    background: linear-gradient(-135deg,#c850c0,#4158d0);
+   
+}
+
+/* search bar */
+.container{
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2rem;
+    padding: 0 0 10px 0;
+}
+
+h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+select{
+    font-size: 15px;
+    color: #666;
+    background: #e6e6e6;
+    height: 40px;
+    border-radius: 5px;
+    padding: 0 15px 0 15px;
+    border: none;
+    font-family: 'Poppins', sans-serif;   
+    width: 150px;
+}
+
+select:focus{
+    outline: none;
+}
+
+.inputData{
+    display: block;
+    margin: 10px 0 10px 0;
+}
+
+.inputData input{
+    font-size: 15px;
+    color: #666;
+    background: #e6e6e6;
+    height: 40px;
+    border-radius: 5px;
+    padding: 0 15px 0 15px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    width: 100px;
+}
+
+option{
+    font-size: 15px;
+    color: #666;
+    background: #e6e6e6;
+    height: 40px;
+    border-radius: 5px;
+    padding: 0 15px 0 15px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+input:focus{
+    outline: none;
+}
+
+.button{
+    background :#57b846 ;
+    color: white;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 5px;
+    padding: 0 15px 0 15px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    width: 200px;
+    margin-top: 10px;
+}
+
+table{
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+   max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.table-con{
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 10px;
+    width: auto;
+    margin:auto;
+    position: relative;
+    font-family: 'Open Sans';
+    text-align: center;
+    background: #fff;
+}
+
+
+
+
+.table-con td.description {
+    max-width: 200px;
+    word-wrap: break-word;
+}
+
+.table-con td.description.expandable {
+    overflow: visible;
+    white-space: normal;
+    text-overflow: clip;
+}
+
+.table-con td.name {
+    max-width: 150px;
+    word-wrap: break-word;
+}
+
+.table-con td.name.expandable {
+    overflow: visible;
+    white-space: normal;
+    text-overflow: clip;
+}
+
+.table-con td.sname {
+    max-width: 150px;
+    word-wrap: break-word;
+}
+
+.table-con td.sname.expandable {
+    overflow: visible;
+    white-space: normal;
+    text-overflow: clip;
+}
+
+.table-con td.folio_number {
+    max-width: 150px;
+    word-wrap: break-word;
+}
+
+.table-con td.folio_number.expandable {
+    overflow: visible;
+    white-space: normal;
+    text-overflow: clip;
+}
+
+
+
+th{
+    width: 200px;
+    font-size:18px;
+    background: #293036;
+    color: white;
+    padding: 15px;
+}
+
+td{
+    padding: 12px;
+}
+
+tr:hover{
+    background-color: #DAE2EB;
+}
+
+tr:hover a{
+    color: #000F68;
+}
+
+
+
+input{
+    font-size: 15px;
+    color: #666;
+    background: #e6e6e6;
+    height: 40px;
+    border-radius: 20px;
+    padding: 0 15px 0 15px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logout{
+    margin:5px;background-color: #ff0000; color: #ffffff; border: none; padding: 5px 10px; cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+    .main-container{
+        padding: 18px;
+        min-height: 100vh;
+        height: fit-content;  
+    }
+    
+    /* search bar */
+    .container{
+        text-align: center;
+        background-color: white;
+        border-radius: 15px;
+        width: 40%;
+        margin: auto;
+        margin-bottom: 0.8rem;
+        padding: 0 0 4px 0;
+    }
+    
+    h2{
+        font-size: 0.7rem;
+        margin-bottom: 0.3rem;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    select{
+        font-size: 8px;
+        height: 30px;
+        border-radius: 5px;
+        padding: 0 5px 0 5px;
+        border: none;
+        font-family: 'Poppins', sans-serif;   
+        width: 100px;
+    }
+
+    option{
+        font-size: 5px;
+        height: 7px;
+        border-radius: 5px;
+        padding: 0 3px 0 3px;
+    }
+    
+    .button{
+        cursor: pointer;
+        height: 16px;
+        border-radius: 5px;
+        padding: 0 5px 0 5px;
+        border: none;
+        font-family: 'Poppins', sans-serif;
+        width: 100px;
+    }
+    
+    table{
+        border-collapse: collapse;
+        border-radius: 10px;
+        overflow: hidden;
+        max-width: 100%;
+        margin: 0 auto;
+        position: relative;
+    }
+    
+    .table-con{
+        border-collapse: collapse;
+        background: #fff;
+        border-radius: 10px;
+        width: auto;
+        margin:auto;
+        position: relative;
+        font-family: 'Open Sans';
+        text-align: center;
+        background: #fff;
+    }
+ 
+    .table-con td.description {
+        max-width: 30px;
+        word-wrap: break-word;
+    }
+    
+    .table-con td.description.expandable {
+        overflow: visible;
+        white-space: normal;
+        text-overflow: clip;
+    }
+    
+    .table-con td.name {
+        max-width: 30px;
+        word-wrap: break-word;
+    }
+    
+    .table-con td.name.expandable {
+        overflow: visible;
+        white-space: normal;
+        text-overflow: clip;
+    }
+    
+    .table-con td.sname {
+        max-width: 30px;
+        word-wrap: break-word;
+    }
+    
+    .table-con td.sname.expandable {
+        overflow: visible;
+        white-space: normal;
+        text-overflow: clip;
+    } 
+
+    .table-con td.folio_number {
+        max-width: 30px;
+        word-wrap: break-word;
+    }
+    
+    .table-con td.folio_number.expandable {
+        overflow: visible;
+        white-space: normal;
+        text-overflow: clip;
+    }
+    
+    th{
+        width: 60px;
+        font-size:6px;
+        background: #293036;
+        color: white;
+        padding: 1px;
+    }
+    
+    td{
+        padding: 2px;
+        font-size: 6px;
+    }
+    input{
+    width: 100px;
+    height: 20px;
+    font-size: 9px;
+  }
+  .logout{
+    background-color: #ff0000; color: #ffffff; border: none; padding: 1px 2px; cursor: pointer;
+    font-size: 6px;
+ }
+    
+}
